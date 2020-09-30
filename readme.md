@@ -4,8 +4,6 @@
 
 Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
-<h1 align="center"><a href="https://github.com/agarrharr/awesome-static-website-services/issues/65">Looking for new maintainers</a></h1>
-
 ## Table of Contents
 
 - [Audio](#audio)
@@ -85,7 +83,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 ## Functions as a Service
 
-- [1Backend](https://1backend.com) - Deploy your backend in seconds. Free tier included. Open source.
+- [1Backend](https://github.com/1backend/1backend) - Deploy your backend in seconds. Free tier included. Open source.
 - [AWS Lambda](https://aws.amazon.com/lambda/) - AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume
 - [Google Cloud Functions](https://cloud.google.com/functions/) - Create single-purpose, stand-alone functions that respond to Cloud events without the need to manage a server or runtime environment
 - [Webtask by Auth0](https://webtask.io/) - Call code on the server with simple HTTP, easier to set up by far than Lambda or Google's
@@ -128,6 +126,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 #### Normal Forms
 
+- [Formcake](https://formcake.com) - The form backend built for developers: Zapier integrations, simple endpoint API, unlimited forms.
 - [Google Forms](https://www.google.com/forms/about/) - Saves results into Google Sheets and can email you when there is a submission.
 - [FormKeep](https://formkeep.com/) - Paid - View form submissions in a beautiful web interface. It has spam filtering and it integrates with webhooks such as Gmail, Trello, and Basecamp.
 - [123 Contact Form](http://www.123contactform.com/) - Connects to other online services such at MailChimp, Salesforce, and Google Drive. It also integreates with payment Processers and includes security and analytics.
@@ -143,6 +142,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [FormBackend](https://www.formbackend.com) - Create form-backends and submit your HTML forms to our backend. View the entries online and connect to other services. Receive an email every time a new entry is submitted.
 - [Pageclip](https://pageclip.co) - A flexible server / backend for HTML forms. View your data in the realtime web interface, or use the API to get CSV and JSON output.
 - [Formester](https://www.formester.com) - Forms and email marketing (lead collection, email campaigns, and newsletters) with integrations.
+- [StaticKit](https://statickit.com) - Modern forms for static sites, with native support for React.
 
 #### Provided by the Host
 
@@ -201,7 +201,25 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 ## Search
 
+Self-hosted:
+
 - [lunr.js](http://lunrjs.com/) - Simple full-text search in your browser.
+- [itemsjs](https://github.com/itemsapi/itemsjs) - Full text, faceted, almost dependency free search engine in javascript
+- [minisearch](https://github.com/lucaong/minisearch) - Tiny and powerful JavaScript full-text search engine for browser and Node
+- [flexsearch](https://github.com/nextapps-de/flexsearch) - Next-Generation full text search library for Browser and Node.js
+- [fuse.js](https://fusejs.io/) - Powerful, lightweight fuzzy-search library, with zero dependencies
+- [static-search](https://github.com/dchest/static-search) - A Go program to generate JSON index of HTML files, and a JavaScript component with optional UI to search this index
+- [elasticlunr](http://elasticlunr.com/docs/index.html) - Lightweight full-text search engine developed in JavaScript for browser search and offline search based on Lunr.js
+- [tinysearch](https://github.com/tinysearch/tinysearch) - Tiny, full-text search engine for static websites built with Rust and Wasm
+- [js-search](https://www.npmjs.com/package/js-search) - Client-side searches of JavaScript and JSON objects, ES5 compatible and does not require jQuery or any other third-party libraries
+- [search-index](https://github.com/fergiemcdowall/search-index) - A persistent, network resilient, full text search library for the browser and Node.js
+- [fuzzysearch](https://github.com/bevacqua/fuzzysearch) - Tiny and blazing-fast fuzzy search in JavaScript
+- [fuzzy](https://github.com/mattyork/fuzzy) - Fuzzy search / filter for browser and node
+- [fullproof](https://reyesr.github.io/fullproof/) - Javascript library that provides high-quality full-text search in the browser
+- [Jets.js](https://jets.js.org/) - Native CSS search engine
+
+Third party integration:
+
 - [Google Custom Search Engine](https://cse.google.com/cse/) - Search your site with a custom Google Search.
 - [Algolia](https://www.algolia.com/) - Hosted Search API that delivers instant and relevant results from the first keystroke.
 - [CloudSh](https://cloudsh.com/) - Powerful search for your website with a few lines of JavaScript.
